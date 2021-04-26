@@ -1,0 +1,59 @@
+.baner{
+    color: white;
+    text-align: center;
+    height: 370px; 
+  
+}
+.blokglowny{
+    background-color: whitesmoke;
+    height: 50px;
+    clear: both;
+    
+}
+.lewy{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 230px;
+    float: left;
+
+    
+}
+.prawy{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 230px;
+    text-align: right;
+    float:left;
+   
+    
+}
+.mecze{
+    float: left;
+}
+body{
+    font-family:Tahoma ;
+    background-color: Crimson;
+  
+}
+h2{
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+}
+
+.rozg{
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+    float: left;
+    border-radius: 10px;
+
+   
+         
+}
+.rozg:hover{
+    
+    border:1px solid white;
+}

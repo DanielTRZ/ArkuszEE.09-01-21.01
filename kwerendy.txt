@@ -1,0 +1,4 @@
+kw1 : SELECT `zespol1`,`zespol2`,`wynik`,`data_rozgrywki`FROM `rozgrywka` WHERE `zespol1` ='EVG';
+kw2 : SELECT `imie`,`nazwisko` FROM `zawodnik` where `pozycja_id`= '3' ;
+kw3 : SELECT zawodnik.id, nazwisko, pozycja.nazwa FROM zawodnik JOIN pozycja ON zawodnik.pozycja id = pozycja.id WHERE zawodnik.id < 4;
+kw4 :  drop table liga;
