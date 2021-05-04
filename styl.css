@@ -1,31 +1,25 @@
 .baner{
     color: white;
     text-align: center;
-    height: 370px; 
-  
+    height: 370px;  
 }
 .blokglowny{
     background-color: whitesmoke;
     height: 50px;
-    clear: both;
-    
+    clear: both;   
 }
 .lewy{
     background-color: whitesmoke;
     width: 70%;
     height: 230px;
-    float: left;
-
-    
+    float: left;    
 }
 .prawy{
     background-color: whitesmoke;
     width: 30%;
     height: 230px;
     text-align: right;
-    float:left;
-   
-    
+    float:left;    
 }
 .mecze{
     float: left;
@@ -33,7 +27,6 @@
 body{
     font-family:Tahoma ;
     background-color: Crimson;
-  
 }
 h2{
     text-align: center;
@@ -48,10 +41,7 @@ h2{
     margin: 10px 10px 10px 10px;
     border: 1px solid black;
     float: left;
-    border-radius: 10px;
-
-   
-         
+    border-radius: 10px;         
 }
 .rozg:hover{
     
