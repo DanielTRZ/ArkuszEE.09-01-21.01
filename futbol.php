@@ -5,12 +5,6 @@
 
      <meta charset="utf-8">
      <title>Rozgrywki futbolowe</title>
-
-     <meta name="description" content="Opis zawartości strony dla wyszukiwarek">
-     <meta name="keywords" content="słowa, kluczowe, opisujące, zawartość">
-     <meta name="author" content="Jan Programista">
-
-     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
      <link rel="stylesheet" href="styl.css">
      <script src="styl.css"></script>
 
