@@ -37,16 +37,13 @@
      
      echo "<h4>";
      echo $r["wynik"];
-     echo "</h4>";
-     
-     
-           
+     echo "</h4>";  
+        
      echo "<p>";
      echo $r["data_rozgrywki"];
      echo "</p>";
-          
-          
-      echo '</div>';
+        
+     echo '</div>';
       
       }
       
@@ -60,15 +57,12 @@
   </div>
   <div class="lewy">
       <a>Podaj pozycję zawodników (1-bramkarze, 2-obrońcy, 3-pomocnicy, 4-napastnicy):</a>
-      
-      
+        
       <form action="futbol.php" method="post">
           <input type="number" name="pilkarz" id="pilkarz">
-          <input type="submit" value="Sprawdź" name="sprawdz" id="pilkarz">  
-         
+          <input type="submit" value="Sprawdź" name="sprawdz" id="pilkarz">       
         
-      </form>
-      
+      </form>    
       
       <?php
     
@@ -84,29 +78,18 @@
      echo "<li>"; 
      echo $rowy["imie"]." ".$rowy["nazwisko"];
      echo "</li>";
-     echo "</ul>"; 
-     
-      
+     echo "</ul>";    
      
       }
       mysqli_close($baza);
       
       ?>
-      
-   
-      
+           
   </div>
   <div class="prawy">
     <img src="zad1.png" alt="piłkarz">
     <a>Autor: Daniel</a>
-     
-      
-      
-  </div>
-  
-  
-  
-  
+          
+  </div>  
   </body>
-
 </html>
