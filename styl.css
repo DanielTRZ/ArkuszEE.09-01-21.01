@@ -33,7 +33,6 @@ h2{
     letter-spacing: 7px;
     text-transform: capitalize;
 }
-
 .rozg{
     color: white;
     text-align: center;
@@ -43,7 +42,6 @@ h2{
     float: left;
     border-radius: 10px;         
 }
-.rozg:hover{
-    
+.rozg:hover{    
     border:1px solid white;
 }
