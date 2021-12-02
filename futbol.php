@@ -2,13 +2,12 @@
 <html lang="pl">
 
   <head>
-
      <meta charset="utf-8">
      <title>Rozgrywki futbolowe</title>
      <link rel="stylesheet" href="styl.css">
      <script src="styl.css"></script>
-
   </head>
+  
   <body>
   <div class="baner">
       <h2>Światowe Rozgrywki Piłkarskie</h2>
@@ -55,7 +54,6 @@
       <form action="futbol.php" method="post">
           <input type="number" name="pilkarz" id="pilkarz">
           <input type="submit" value="Sprawdź" name="sprawdz" id="pilkarz">       
-        
       </form>    
       
       <?php
